@@ -10,7 +10,7 @@ def engTur(sozcuk) :
     for tur , eng in sozluk.items() :
         if eng == sozcuk.lower() :
             return tur
-        return "bu kelimeyi bulamadım"
+    return "bu kelimeyi bulamadım"
 
 print("ultimate prof über düber çevirmene hoşgeldiniz\ntürkçeden ingilizceye için: 1\ningilizceden türkçeye için: 2")
 chose = int(input(":"))
